@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'KronaOne';
+    src: url('./fonts/KronaOne-Regular.ttf');
+}
+
+* {
+  padding: 0;
+  margin:0;
+  list-style: none ;
+  text-decoration: none;
+}
+body {
+  background-image: url("./img/Esto1.PNG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.center {
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+
+}
+
+.interface1 {
+  position: absolute;
+  width:50%;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 50px;
+}
+.interface1::before {
+  content: '';
+  position: absolute;
+  display: block;
+  background: #fff;
+  width:100%;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: -1000;
+  opacity: 0.6;
+  border-radius: 15px;
+}
+/*
+.interface2 {
+
+  display: none;
+  transition: all 0.4s ease 0s;
+
+}
+.show {
+  display: block;
+}
+*/
+img {
+  width: 25vw;
+}
+
+#main_title {
+  font-family: 'KronaOne';
+  font-size: 2vw;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: #14498d;
+}
+#plat_button {
+  font-family: 'KronaOne';
+  font-size: 1vw;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+#plat_button:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.test {
+  display: none;
+}
+
+
+
+
+/*======        LOG IN STYLE          ======*/
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}

@@ -1,0 +1,78 @@
+body
+{
+    background-color: #DCDCDC;
+}
+
+/* table
+{
+    
+    margin: auto; 
+    width: 1240px;
+    height: fit-content;
+    text-align: center;
+    padding-top: 20px;
+    border-spacing: 5px 1rem;
+
+}
+*/
+table th , table tr ,table td
+{
+     border: inset; 
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    text-align: center;
+  
+    
+}
+
+.table
+{
+    width: 95%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+caption
+{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+} 
+
+.btn
+{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 35px;   
+
+}
+
+h2
+{
+    font-weight: bold;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button
+{
+    background-color: inherit;
+    border: 0px
+}
+
+#supp
+{
+    border: outset;
+}

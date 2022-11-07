@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'KronaOne';
+  src: url('./../../../../fonts/KronaOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./../../../../fonts/OpenSans-Regular.ttf');
+}
+body{
+  background-color:#f1faee ;
+}
+
+/*form
+{
+padding-left: 410px;
+padding-top: 20px;
+}*/
+
+.Element
+{
+position: relative;
+display: inline-block;
+left:50%;
+transform: translateX(-50%);
+margin-bottom: 30px;
+}
+
+table{
+position: relative;
+margin: auto;
+text-align: center;
+width: 600px;
+height: 450px;
+font-size: large;
+}
+
+.table2 tr , .table2 td, .table2 th
+{
+  border: solid #1d3557;
+  border-width: thin;
+
+}
+
+.table2 th
+{
+background-color: #1d3557;
+color: white;
+font-size: larger;
+
+}
+
+.select{   /* refaire */
+width: 15em;
+height: 2em;
+line-height: 3;
+background: #F9B91B;
+overflow: hidden;
+border-radius: .25em;
+font-family:'OpenSans';
+font-size: 18px;
+}
+
+input {  /* refaire */
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+
+label{
+font-family: 'OpenSans';
+  font-weight: bolder;
+  color: #1d3557;
+  font-size: 20px;
+}
+
+.button_non_reserve
+{
+width: 30px;
+height: 30px;
+border-radius: 30px;
+cursor: pointer;
+background-color: green;
+}
+
+.button_reserve{
+width: 30px;
+height: 30px;
+border-radius: 30px;
+cursor: pointer;
+background-color: red;
+}
+
+
+.dernier_button button
+{
+position: relative;
+display: inline-block;
+text-align: center;
+height: 40px;
+width: 250px;
+font-weight: bold;
+font-size: 12px;
+font-family: 'KronaOne';
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+border-radius: 5px;
+border: none;
+transition: all 0.4s ease 0s;
+left: calc(50% - 125px);
+transform: translateX(-50%);
+}
+
+.dernier_button button:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+a
+{
+text-decoration:none;
+color: #FFF;
+}

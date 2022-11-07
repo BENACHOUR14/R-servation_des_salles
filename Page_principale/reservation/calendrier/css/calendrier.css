@@ -1,0 +1,138 @@
+*{margin: 0;}
+
+body{
+    margin: 0px;
+}
+
+
+.the_back
+{
+    display: flex; /* refaire ytp */
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    height: 100vh;
+    width: 100vw;
+}
+
+.calendrier
+{
+    background-color: white;
+    height: 85vh;
+    width: 60vw;
+    max-width:763px;
+  /*  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);   ajouter de l'ombre */
+
+}
+
+.mois
+{
+    display: flex;
+    background-color: brown;
+   justify-content: space-between; /* refaire */
+   align-items: center; /* refaire */
+   color: white;
+   text-align: center;
+   padding: 40px 30px;
+
+}
+
+#mois_haut
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#date_du_jour
+{
+    font-style: italic;
+}
+.weekends
+{
+    display: flex;
+     background-color: #8B0000;
+     color: white;
+     height: 30px;
+}
+
+.weekends div
+{
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+}
+
+.jours
+{
+    display: flex;
+    flex-wrap: wrap;  /*refaire*/
+    text-align: center;
+    height: 328px;
+    padding: 10px 0px ;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jours div
+{
+    width: 14.27%;
+    padding: 12px 0px;
+    transition: all 0.5s; /* refaire */
+    
+}
+
+.jours div:hover
+{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.jour_courant
+{
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+
+.jour_précedent
+{
+color:#C5C3C3 ;
+}
+
+.précedent ,
+.suivant
+{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    font-size: 40px;
+    border-radius: 50px;
+    justify-content: center; /* refaire */
+    align-items: center;/* refaire */
+    background-color: brown;
+}
+
+.précedent :hover ,.suivant :hover
+{
+  cursor: pointer;
+}
+
+img
+{
+width:  190px;
+height: 175px;
+position: absolute;
+border-radius: 45px;
+padding-left: 10px;
+}
+
+.image
+{
+width:  375px;
+height: 245px;
+right: -90px;
+}
+
+.days_color
+{
+    text-decoration:none;
+    color: rgb(150, 0, 0);
+}

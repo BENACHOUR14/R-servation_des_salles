@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Calendrier</title>
+ 
+        <link rel="stylesheet" href="./css/calendrier.css">
+
+    </head>
+
+    <body onload="rendreDate()">
+    
+        <div class="the_back">
+
+            <div class="calendrier">
+
+                <div class="mois">
+
+                    <div class="précedent">
+                        <span  onclick="changer('préc')">&#8249;</span>
+                    </div>
+
+                    <div>
+                        <span>
+                            <h2 id="mois_haut"></h2>
+                            <p id="date_du_jour"></p>
+                        </span>
+                    </div>
+
+                    <div class="suivant" >
+                        <span onclick="changer('suiv')">&#8250;</span>
+                    </div>
+                </div>
+
+                <div class="weekends">
+                    <div>Dim</div>
+                    <div>Lun</div>
+                    <div>Mar</div>
+                    <div>Mer</div>
+                    <div>Jeu</div>
+                    <div>Ven</div>
+                    <div>Sam</div>
+                </div>
+
+                    
+                <div class="jours"></div>
+            
+             </div>
+        </div>
+
+        <script src="js/calendrier.js"></script>
+    </body>
+</html>
+
